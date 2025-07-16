@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federação Espírita</title>
+    <link rel="stylesheet" href="inicstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   
+     <header>
+        <button id="logoo">LOGO</button>
+        <div class="logo">
+            <strong>BLIJLP</strong>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><button onclick="location.href='inicio.html'">Início</button></li>
+                <li><button onclick="location.href='livros.html'">Livros</button></li>
+                <li><button onclick="location.href='contos.html'">Contos</button></li>
+                <li><button onclick="location.href='autores.html'">Autores</button></li>
+                <li><button onclick="location.href='palavchave.html'" id="palav-chave">Palavras-chave</button></li>
+                <li><button onclick="location.href='minhalista.html'" id="listaa">Minha Lista</button></li>
+            </ul>
+        </nav>
+        <button id="perfil" onclick="location.href='perfil.html'">
+    <i class="fas fa-user" style="font-size: 24px; color: #302f2f; margin-left: 16px;"></i>
+</button>
+        <form class="search-bar" action="#" method="get">
+            <input type="text" placeholder="Digite aqui..." name="q">
+            <button type="submit">Pesquisar</button>
+        </form>
+        
+    </header>
+     <div class="titulo">
+        <h1>Seja Bem Vindo á Bibliografia de Livros Infantojuvenis em Lingua Portuguesa</h1>
+        <h6>Centenas de contos e livros das mais variadas áreas do conhecimento</h6> 
+    </div>
+    <p>Mais Acessados</p>
+
+    <div class="galeria-imagens">
+        <div class="imagem-item">
+            <img src="imagemlivro1.png" alt="Imagem 1">
+            <p id="livro1">Livro 1</p>
+        </div>
+        <div class="imagem-item">
+            <img src="imagemlivro1.png" alt="Imagem 2">
+            <p id="livro2">Conto 1</p>
+        </div>
+        <div class="imagem-item">
+            <img src="imagemlivro1.png" alt="Imagem 3">
+            <p id="livro3">Livro 2</p>
+        </div>
+        <div class="imagem-item">
+            <img src="imagemlivro1.png" alt="Imagem 4">
+            <p id="livro4">Conto 2</p>
+        </div>
+        <div class="imagem-item">
+            <img src="imagemlivro1.png" alt="Imagem 5">
+            <p id="livro5">Livro 3</p>
+        </div>
+    </div>
+</body>
+<footer> &copy; 2024 Fábrica de REA. Todos os direitos reservados.</footer>
+</html>
