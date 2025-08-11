@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federação Espírita</title>
+    <link rel="stylesheet" href="livros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <button id="logoo">LOGO</button>
+        <div class="logo">
+            <strong>BLIJLP</strong>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><button onclick="location.href='inicio.html'">Início</button></li>
+                <li><button onclick="location.href='livros.html'">Livros</button></li>
+                <li><button onclick="location.href='contos.html'">Contos</button></li>
+                <li><button onclick="location.href='autores.html'">Autores</button></li>
+                <li><button onclick="location.href='palavchave.html'" id="palav-chave">Palavras-chave</button></li>
+                <li><button onclick="location.href='minhalista.html'" id="listaa">Minha Lista</button></li>
+            </ul>
+        </nav>
+        <button id="perfil" onclick="location.href='perfil.html'">
+    <i class="fas fa-user" style="font-size: 24px; color: #302f2f; margin-left: 16px;"></i>
+</button>
+        
+        
+    </header>
+    <div class="titulo">
+        <h1>Livros</h1>
+        <h6>Centenas de livros das mais variadas áreas do conhecimento</h6> 
+    </div>
+    <div class="pesquisa-aba">
+        <input type="text" placeholder="Pesquisar livros, autores, temas..." name="pesquisa">
+        <button type="button">Pesquisar</button>
+    </div>
+    <div>
+    <div class="container">
+    <div class="filtros">
+      <h3>Filtros</h3>
+      <strong>Autores</strong>
+      <label><input type="checkbox"> Autor 1</label>
+      <label><input type="checkbox"> Autor 2</label>
+      <label><input type="checkbox"> Autor 3</label>
+
+      <br><strong>Palavra-Chave</strong>
+      <label><input type="checkbox"> Amor</label>
+      <label><input type="checkbox"> Compaixão</label>
+      <label><input type="checkbox"> Felicidade</label>
+
+      <br><strong>Ilustrador</strong>
+      <label><input type="checkbox"> Ilustrador 1</label>
+      <label><input type="checkbox"> Ilustrador 2</label>
+    </div>
+
+    <div class="conteudo">
+      <div class="busca">
+        <input type="text" placeholder="Procure seu livro">
+        <button>Buscar</button>
+      </div>
+
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Autor</th>
+          <th>Ilustrador</th>
+          <th>Editora</th>
+          <th>Palavra-Chave</th>
+        </tr>
+        <tr>
+          <td>Livro 1</td>
+          <td>Autor 1</td>
+          <td>Ilustrador 1</td>
+          <td>Editora 1</td>
+          <td>PC</td>
+        </tr>
+        <tr>
+          <td>Livro 2</td>
+          <td>Autor 2</td>
+          <td>Ilustrador 2</td>
+          <td>Editora 2</td>
+          <td>PC</td>
+        </tr>
+        <tr>
+          <td>Livro 3</td>
+          <td>Autor 3</td>
+          <td>Ilustrador 3</td>
+          <td>Editora 3</td>
+          <td>PC</td>
+        </tr>
+      </table>
+
+      <div class="relatorio-btn" onclick="emitirRelatorio()">Emitir Relatório</div>
+
+      <div class="paginacao">
+        <span>1</span>
+        <span>2</span>
+        <span>......</span>
+        <span>30</span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    function emitirRelatorio() {
+      alert("Relatório emitido!");
+    }
+  </script>
+</body>
+<footer> &copy; 2024 Fábrica de REA. Todos os direitos reservados.</footer>
+</html>
