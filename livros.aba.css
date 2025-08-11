@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha logo e menu à esquerda */
+    padding: 12px 0;
+    background-color: #ffffff; /* Cor de fundo do cabeçalho */
+    gap: 20px;
+    
+
+}
+
+.logo {
+    margin-left: 10; /* Remove espaço extra à esquerda */
+}
+.logo, #menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+
+}
+#menu {
+    margin-left: 135px;
+}
+button:not(#logoo):not(#perfil):not(.btn-submit) {
+    background-color: rgb(113, 155, 74); /* marrom */
+    color: #fff;
+    border: none;
+    border-radius: 24px; /* borda mais arredondada */
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:not(#logoo):not(#perfil):not(.btn-submit):hover{
+    background-color: rgb(113, 155, 74); /* marrom mais claro no hover */
+}
+#logoo {
+    border-radius: 50%;      /* Deixa o botão totalmente redondo */
+    width: 48px;             /* Largura e altura iguais para formato circular */
+    height: 48px;
+    background-color: rgb(113, 155, 74); /* Marrom igual aos outros */
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar {
+    margin-left: auto; /* Alinha a barra de pesquisa à direita */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#perfil {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: inherit;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+.formlogin{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:130px;
+    padding: 60px;
+    background-color: rgb(180, 174, 165);
+    width: 235px;
+    height: 260px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    line-height: 31px;
+    
+}
+.btn-google{
+    width: 5px;
+    height: auto;
+  
+}
+#login , #senha {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-style: oblique;
+}
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(100, 97, 97);
+    color: #0c0a0a;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
